@@ -27,7 +27,7 @@ st.set_page_config(
 @st.cache_resource
 def load_data():
     """Load product data"""
-    df = pd.read_csv("data/amazon_products.csv", nrows=5000)
+    df = pd.read_csv("data/amazon_small.csv")
     return df
 
 @st.cache_resource
