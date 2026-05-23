@@ -126,7 +126,7 @@ Shoes
 5. Generate recommendations using the selected model.
 6. Display top-N results with price, rating, demand, similarity, or hybrid score.
 
-## Resume Highlights
+## Project Highlights
 
 - Built an adaptive e-commerce recommendation system using Python, Scikit-learn, and Streamlit.
 - Implemented popularity-based, content-based, and hybrid recommendation models using TF-IDF, cosine similarity, and purchase-demand signals.
