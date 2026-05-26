@@ -1,6 +1,6 @@
 # Adaptive AI Recommender System
 
-An end-to-end machine learning recommendation system that suggests relevant e-commerce products using popularity-based, content-based, and hybrid recommendation strategies. The project is built around Amazon product data and deployed as an interactive Streamlit web app where users can search for a product, tune recommendation weights, and compare different recommendation approaches.
+An end-to-end machine learning recommendation system that suggests relevant e-commerce products using popularity-based, content-based, and hybrid recommendation strategies. The project is built around Amazon product data and deployed as an interactive Streamlit web app where users can search for a product, tune recommendation weights and compare different recommendation approaches.
 
 > Live Demo: https://adaptive-ai-recommender-system-lab.streamlit.app/
 
