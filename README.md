@@ -6,7 +6,7 @@ An end-to-end machine learning recommendation system that suggests relevant e-co
 
 ## Project Overview
 
-Modern e-commerce platforms depend on recommendation engines to improve product discovery, personalization, and user engagement. This project simulates that workflow by building a recommendation system that ranks products using product metadata, customer purchase signals, and text similarity.
+Modern e-commerce platforms depend on recommendation engines to improve product discovery, personalization, and user engagement. This project simulates that workflow by building a recommendation system that ranks products using product metadata, customer purchase signals and text similarity.
 
 The system starts with basic popularity ranking, adds content-based recommendations using TF-IDF and cosine similarity, and then combines both signals in a hybrid model. The Streamlit app makes the model usable through a simple search interface and adjustable hybrid weights.
 
