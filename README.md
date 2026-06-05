@@ -1,12 +1,12 @@
 # Adaptive AI Recommender System
 
-An end-to-end machine learning recommendation system that suggests relevant e-commerce products using popularity-based, content-based, and hybrid recommendation strategies. The project is built around Amazon product data and deployed as an interactive Streamlit web app where users can search for a product, tune recommendation weights, and compare different recommendation approaches.
+An end-to-end machine learning recommendation system that suggests relevant e-commerce products using popularity-based, content-based, and hybrid recommendation strategies. The project is built around Amazon product data and deployed as an interactive Streamlit web app where users can search for a product, tune recommendation weights and compare different recommendation approaches.
 
 > Live Demo: https://adaptive-ai-recommender-system-lab.streamlit.app/
 
 ## Project Overview
 
-Modern e-commerce platforms depend on recommendation engines to improve product discovery, personalization, and user engagement. This project simulates that workflow by building a recommendation system that ranks products using product metadata, customer purchase signals, and text similarity.
+Modern e-commerce platforms depend on recommendation engines to improve product discovery, personalization, and user engagement. This project simulates that workflow by building a recommendation system that ranks products using product metadata, customer purchase signals and text similarity.
 
 The system starts with basic popularity ranking, adds content-based recommendations using TF-IDF and cosine similarity, and then combines both signals in a hybrid model. The Streamlit app makes the model usable through a simple search interface and adjustable hybrid weights.
 
@@ -126,7 +126,7 @@ Shoes
 5. Generate recommendations using the selected model.
 6. Display top-N results with price, rating, demand, similarity, or hybrid score.
 
-## Resume Highlights
+## Project Highlights
 
 - Built an adaptive e-commerce recommendation system using Python, Scikit-learn, and Streamlit.
 - Implemented popularity-based, content-based, and hybrid recommendation models using TF-IDF, cosine similarity, and purchase-demand signals.
