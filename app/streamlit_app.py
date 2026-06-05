@@ -1,6 +1,5 @@
 # ============================================
 # ADAPTIVE AI RECOMMENDER SYSTEM - WEB APP
-# Day 6: Streamlit Frontend
 # ============================================
 
 import streamlit as st
@@ -281,18 +280,3 @@ else:
         st.write(f"**{i+1}. {row['title'][:80]}...**")
         st.write(f"   💰 ${row['price']} | ⭐ {row['stars']} | 📦 {row['boughtInLastMonth']} bought last month")
         st.divider()
-
-# # ============================================
-# # FOOTER
-# # ============================================
-
-# st.markdown("---")
-# st.markdown(
-#     """
-#     <div style='text-align: center'>
-#         <p>Built with ❤️ using Streamlit | Adaptive AI Recommender System</p>
-#         <p style='font-size: 12px; color: gray;'>Day 6: Web Application | Day 7: Coming Soon</p>
-#     </div>
-#     """,
-#     unsafe_allow_html=True
-# )
