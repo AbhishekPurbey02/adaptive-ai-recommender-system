@@ -18,7 +18,7 @@ The system starts with basic popularity ranking, adds content-based recommendati
 - Adjustable content and popularity weights from the Streamlit sidebar
 - Product search with top-N recommendation control
 - Cached data and model loading for faster Streamlit inference
-- Notebook-driven development workflow for preprocessing, modeling, and experimentation
+- Notebook-driven development workflow for preprocessing, modeling and experimentation
 
 ## Tech Stack
 
