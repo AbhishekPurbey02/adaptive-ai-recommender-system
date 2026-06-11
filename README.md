@@ -43,7 +43,7 @@ The project uses a cleaned Amazon product dataset with 1,000 product records. Ke
 - Bestseller flag
 - Bought in last month count
 
-These features are used to build product text representations, estimate popularity, and generate recommendations.
+These features are used to build product text representations, estimate popularity and generate recommendations.
 
 ## Recommendation Approaches
 
@@ -53,7 +53,7 @@ Ranks products by normalized purchase demand using the `boughtInLastMonth` field
 
 ### 2. Content-Based Recommendation
 
-Creates a combined product text feature from title, category, price range, and bestseller status. TF-IDF converts this text into vectors, and cosine similarity finds products most similar to the searched item.
+Creates a combined product text feature from title, category, price range, and bestseller status. TF-IDF converts this text into vectors and cosine similarity finds products most similar to the searched item.
 
 ### 3. Hybrid Recommendation
 
